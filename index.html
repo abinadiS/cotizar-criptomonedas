@@ -24,9 +24,9 @@
                             id="moneda"
                             name="moneda"
                         >
-                                <option value="">Elige tu moneda</option>
+                                <option value="" disabled selected>Elige tu moneda</option>
                                 <option value="USD">Dolar Estadounidense</option>
-                                <option value="MXN">Peso Mexicano</option>
+                                <option value="COP">Peso Colombiano</option>
                                 <option value="GBP">Libras</option>
                                 <option value="EUR">Euros</option>
                         </select>
@@ -40,11 +40,11 @@
                             id="criptomonedas"
                             name="criptomoneda"
                         >
-                            <option value="">Elige tu criptomoneda</option>
+                        <option value="" disabled selected>Elige tu Criptomoneda</option>
                         </select>
                     </div>
                     </div>
-                    <input class="button-primary u-full-width" type="submit" value="Cotizar" />
+                    <input class="button-primary u-full-width" type="submit" id="cotizar" value="Cotizar" />
 
                     <div id="resultado" class="resultado"></div>
                 </form>
